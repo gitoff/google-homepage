@@ -1,0 +1,159 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    color: #5f5f5f;
+    text-decoration: none;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#gapps-drawer {
+    height: 15px;
+}
+
+#searchicon {
+    height: 15px;
+}
+
+#mic {
+    height: 25px;
+}
+
+#nav-container{
+    display: flex;
+    margin: 0px 0px 90px 0px;
+    padding: 5px 0px 11px 0px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-container a{
+    font-size: 12px;
+}
+
+#nav-left{
+    display: flex;
+    padding-left: 20px;
+    width: 40%;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#nav-right{
+    display: flex;
+    padding-right: 20px;
+    width: 40%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#sign-in {
+    background-color: #208afc;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    border-style: none;
+    border-radius: 3px;
+    padding: 8px 14px;
+    margin: 10px;
+}
+
+#main-content{
+    position: relative;
+    text-align: center;
+    z-index: 3;
+}
+
+#google-logo {
+    margin: auto;
+}
+
+#search-bar {
+    display: flex;
+    margin: auto;
+    margin-top: 30px;;
+    padding: 0px;
+    width: 580px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e2e2e2;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#search-bar:hover {
+    box-shadow: 0px 1px 8px #cecece;
+}
+
+#search-input{
+    width: 430px;
+    height: 35px;
+    border-style: none;
+}
+
+.button-container {
+    margin: 20px;
+}
+
+.search-button {
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    color: #5f5f5f;
+    font-weight: 500;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.search-button:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #bebebe;
+}
+
+#footer-container{
+       position: fixed;
+       display: flex;
+       bottom: 0px;
+       left: 0px;
+       right: 0px;
+       height: 20px;
+       width: 100%;
+       padding: 11px 0px 11px 0px;
+       border-style: solid;
+       border-width: 1px 0px 0px 0px;
+       border-color: #e2e2e2;
+       align-items: center;
+       justify-content: space-between;
+       z-index: 1;
+}
+
+#footer-left{
+    display: flex;
+    width: 40%;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#footer-right{
+    display: flex;
+    width: 40%;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: flex-end;
+}
